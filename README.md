@@ -1,4 +1,5 @@
 # My-Project : Rock-Paper-Scissors Game
+import random
 kullanici=input("Oyuna hoş geldiniz. Taş için 't', kağıt için 'k', makas için 'm' harfine basınız. Çıkmak için 'c' tuşuna basınız.")
 bilgisayar=random.choice(["t","k","m"])
 if kullanici==bilgisayar:
